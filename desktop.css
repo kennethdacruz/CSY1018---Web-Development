@@ -8,3 +8,7 @@ body {
     "main"
     "footer ";
 }
+
+.on,.off {
+    display: none;
+}

@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;;
+}
+
 nav {
     background-color: yellow;
     grid-area: nav;
