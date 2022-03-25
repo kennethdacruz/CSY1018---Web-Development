@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color: white;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
@@ -11,4 +11,43 @@ body {
 
 .on,.off {
     display: none;
+}
+
+/* HOMEPAGE STYLE DESKTOP */ 
+.home {
+    background-color: aqua;
+}
+
+.home .mainTop img {
+    height: 15em;
+    width: 15em;
+    border-radius: 100%;
+    box-shadow: 5px 10px;
+    margin-bottom: 2em;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 2;
+    grid-template-areas: 
+    "mainTop"
+    "mainBottom";
+    height: 55vh;
+    padding: 3em 15%;
+}
+
+.home .mainTop {
+    grid-area: mainTop;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .mainBottom {
+    grid-area: mainBottom;
+}
+
+.home .mainBottom p {
+    text-align: center;
 }

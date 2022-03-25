@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 
 a {
@@ -10,8 +11,15 @@ a {
 }
 
 nav {
-    background-color: yellow;
+    background-color: darkblue;
     grid-area: nav;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 1.5em;
 }
 
 main {
