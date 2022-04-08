@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: blue;
 }
 
 a, li {
@@ -15,7 +15,7 @@ a, li {
 }
 
 nav {
-    background-color: darkblue;
+    background-color: gray;
     grid-area: nav;
     color: white;
 }
@@ -41,13 +41,13 @@ header {
 }
 
 .active {
-    border-bottom: 0.3em solid red;
+    border-bottom: 0.3em solid aqua;
 }
 
 
 .backG p {
     font-size: 5em;
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
     word-spacing: 100vh;
     width: 0.1em;
     opacity: 30%;
@@ -96,7 +96,7 @@ header {
 }
 
 footer {
-    background-color: red;
+    background-color: rgb(14, 97, 221);
     height: 5em;
 
     display: grid;
@@ -116,3 +116,5 @@ footer a {
         color: white;
         font-size: 2em;
     }
+
+    
