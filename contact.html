@@ -45,10 +45,14 @@
         <a href="https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin" target="_blank"><i class="fa-brands fa-linkedin"></i><p>Find me on LinkedIn</p></a>
         </section>
 
+        <!-- Creating the form layout with input validation -->
         <form action="mailto:dacruzkenneth@gmail.com" method="get">
-            <label for="">Contact me here</label> 
-            <textarea name="body" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="Email Me :)">
+            <label for="subject">Email subject</label> <input type="text" name="subject" id="subject"
+            placeholder="Enter subject..." required>
+        <label for="body">Email</label> <textarea name="body" id="body" cols="30" rows="10" placeholder="Enter message" required></textarea>
+        <section><input type="checkbox" name="t&c" id="type"><label for="type">Do you accept the terms and conditions</label></section>
+
+            <input type="submit" value="Submit" class="submit">
         </form>
     
     </main>

@@ -1,5 +1,5 @@
 body {
-    background-color: blue;
+    background-color: #242a38;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
@@ -17,6 +17,10 @@ nav {
     right: 0;
     height: 100vh;
     width: 30%
+}
+
+nav ul {
+    list-style: none;
 }
 
 #showNav:target .on {display: none;}

@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: blue;
+    background-color: #242a38;
 }
 
 a, li {
@@ -28,6 +28,11 @@ nav a {
 
 main {
     grid-area: main;
+    color: white;
+}
+
+main {
+    font-size: 1.171em;
 }
 
 footer {
@@ -44,10 +49,9 @@ header {
     border-bottom: 0.3em solid aqua;
 }
 
-
 .backG p {
     font-size: 5em;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     word-spacing: 100vh;
     width: 0.1em;
     opacity: 30%;
@@ -96,7 +100,7 @@ header {
 }
 
 footer {
-    background-color: rgb(14, 97, 221);
+    background-color: #2e3449;
     height: 5em;
 
     display: grid;
