@@ -57,47 +57,45 @@ header {
     opacity: 30%;
 }
 
-.backG {
+ body{
 
-    position: fixed;
-    top: 0;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    z-index: -1;
-    height: 100%;
+/*     background: linear-gradient(90deg, rgba(36,42,56,1) 0%, rgb(16, 27, 51) 35%, rgb(62, 71, 92) 100%);
+	background-size: 400% 400%;
+	animation: gradient 15s infinite linear;
+    animation-delay: 5s; */
+
+    animation: backG 8s infinite ease;
 }
 
-.backG p:nth-child(even) {
-    animation: down 8s infinite linear;
-}
-
-.backG p:nth-child(odd) {
-    animation: up 8s infinite linear;
-}
-
-
-@keyframes down {
+@keyframes backG {
 
     0% {
-        transform: translate(0, -50%)
+        background-color: rgba(36,42,56,1);
     }
 
-    100% {
-        transform: translate(0, 150%)
+    35% {
+        background-color: rgb(16, 27, 51);
     }
+    
+    100% {
+        background-color: rgb(62, 71, 92);
+    }
+    
 }
 
-@keyframes up {
+/* @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
 
-    0% {
-        transform: translate(0, 100%)
-    }
 
-    100% {
-        transform: translate(0, 0)
-    }
-}
 
 footer {
     background-color: #2e3449;
