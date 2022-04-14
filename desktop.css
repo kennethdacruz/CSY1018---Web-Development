@@ -13,9 +13,6 @@ body {
 }
 
 /* HOMEPAGE STYLE DESKTOP */ 
-.home {
-    
-}
 
 .home .mainTop img {
     height: 15em;
@@ -79,6 +76,7 @@ nav ul ul {
        pointer-events: auto;
 }
 
+/*Changing backgrund color when hovered over the navigation links to the different web pages*/
 nav ul ul li:hover {
     background-color: #242a38;
 }
@@ -91,16 +89,17 @@ nav ul ul li:hover {
         text-decoration: none;
         justify-content: flex-start;
     }
-
+/* Creating a margin for the contact links section on the contact webpage */
 .contactLinks i {
     margin-right: 0.1em;
 }
-
+/* Setting a background colour and padding for the contact links section on the contact webpage */
 .contactLinks {
     background-color: #353d52;
     padding: 2em;
 }
 
+/* Displaying a grid and assigning a color to the titles of the different sections of the form*/
 .contactPage {
     display: grid;
     grid-template-columns: 30% 70%;
@@ -118,8 +117,9 @@ nav ul ul li:hover {
     margin-right: 0.5em;
 }
 
+/* Creating a submit button, assigning it a width and setting the position to center */
 .contactPage form input[type=submit] {
-    width: 50%;
+    width: 25%;
     justify-self: center;
 }
 
@@ -157,8 +157,7 @@ nav ul ul li:hover {
 
 /* Assigning a height and width for entires with a specified margin */
 .Blog p {
-    margin: 10%;
-    width: 55%;
+    margin: 0.5em;
 }
 
 .Report {
@@ -171,6 +170,51 @@ nav ul ul li:hover {
     padding: 2%;
     color: white;
 }
+
+.WebDevelopment {
+    justify-items: center;
+    margin: 3%;
+    height: 90%;
+    width: 90vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
+
+.SoftwareEngineering {
+    justify-items: center;
+    margin: 3%;
+    height: 90%;
+    width: 90vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
+
+.Databases {
+    justify-items: center;
+    margin: 3%;
+    height: 90%;
+    width: 90vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
+
+.Programming {
+    justify-items: center;
+    margin: 3%;
+    height: 90%;
+    width: 90vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
+
 
 
 
@@ -186,3 +230,32 @@ img {
 } 
 
  */
+
+
+ .portfolio section a:hover h2
+ {
+     display: block;
+ }
+
+ .portfolio section a h2
+ {
+     display: none;
+ }
+
+ .portfolio section a h2 {
+     position: absolute;
+ }
+
+ .portfolio section a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Blog section {
+    text-align: center;
+}
+
+nav li {
+    font-size: 18px;
+}
