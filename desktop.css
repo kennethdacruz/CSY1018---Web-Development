@@ -152,7 +152,7 @@ nav ul ul li:hover {
     grid-gap: 5%;
     margin-bottom: 3%;
     color: white;
-    margin: 6.46%;
+    margin: 1.5%;
 }
 
 /* Assigning a height and width for entires with a specified margin */
@@ -215,22 +215,49 @@ nav ul ul li:hover {
     color: white;
 }
 
-
-
-
- /* main {
-    margin-left: 15%;
-    margin-right: 15%;
-    background-image: url(Portfolio_background_image.jpg);
+.websiteStart {
+    justify-items: center;
+    margin: 3%;
+    height: 90%;
+    width: 90vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
 }
 
-img {
-    width: 50%;
-    border-radius: 100%;
-} 
+.websiteProgress {
+    justify-items: center;
+    margin: 3%;
+    height: 90%;
+    width: 90vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
 
- */
+.finalWebsite {
+    justify-items: center;
+    margin: 3%;
+    height: 90%;
+    width: 90vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
 
+.report {
+    justify-items: center;
+    margin: 3%;
+    height: 15%;
+    width: 90vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
 
  .portfolio section a:hover h2
  {
@@ -258,4 +285,37 @@ img {
 
 nav li {
     font-size: 18px;
+}
+
+.blog {
+    justify-items: center;
+    margin: 3%;
+    height: 90%;
+    width: 25vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
+
+.blog {
+    justify-items: center;
+    margin: 3%;
+    height: 90%;
+    width: 25vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
+
+.blog {
+    justify-items: center;
+    margin: 3%;
+    height: 90%;
+    width: 25vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
 }
