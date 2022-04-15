@@ -156,9 +156,130 @@ nav a {
 }
 
 .Blog {
-    padding: 1.5em;
+    padding: 0.6em;
+}
+.siteReport {
+    padding: 0.6em;
 }
 
-.Blog section {
+/* .Blog section {
     margin-bottom: 2em;
+} */
+
+.blog {
+    justify-items: center;
+    margin: 3%;
+    width: 85vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 0.5em;
+    color: white;
+}
+.blog button {
+    margin-left: 8em;
+    margin-bottom: 1em;
+}
+
+
+.Report {
+    justify-items: center;
+    margin: 3%;
+    height: 32%;
+    width: 85vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
+
+.WebDevelopment {
+    justify-items: center;
+    margin: 3%;
+    height: 97%;
+    width: 85vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
+
+.SoftwareEngineering {
+    justify-items: center;
+    margin: 3%;
+    height: 96%;
+    width: 85vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
+
+.Databases {
+    justify-items: center;
+    margin: 3%;
+    height: 45%;
+    width: 85vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
+
+.Programming {
+    justify-items: center;
+    margin: 3%;
+    height: 45%;
+    width: 85vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
+
+.websiteStart {
+    justify-items: center;
+    margin: 3%;
+    height: 94%;
+    width: 85vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
+
+.websiteProgress {
+    justify-items: center;
+    margin: 3%;
+    height: 97%;
+    width: 85vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
+
+.finalWebsite {
+    justify-items: center;
+    margin: 3%;
+    height: 97%;
+    width: 85vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white; 
+}
+
+.report {
+    justify-items: center;
+    margin: 3%;
+    height: 20%;
+    width: 85vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
+
+.portfolio img {
+    padding: 0.4em;
 }

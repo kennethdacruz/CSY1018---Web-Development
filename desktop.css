@@ -32,6 +32,7 @@ body {
     "mainTop"
     "mainBottom";
     padding: 3em 15%;
+    height: 64vh;
 }
 
 .home .mainTop {
