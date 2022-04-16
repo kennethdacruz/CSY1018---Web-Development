@@ -80,8 +80,9 @@ nav ul ul li:hover {
 
 .home {
     text-align: center;
-    margin-top: 4em;
+    margin-top: 2em;
     margin-bottom: 5em;
+    height: 67.5vh;
 }
 
 footer {
@@ -166,16 +167,36 @@ nav a {
     margin-bottom: 2em;
 } */
 
-.blog {
-    justify-items: center;
-    margin: 3%;
-    width: 85vw;
+.blogEntry1{
+    grid-area: entry1;
+    color: white;
+    margin: 1%;
     border-color: yellow;
     border-style: solid;
-    padding: 0.5em;
-    color: white;
+    width: 15em;
+    padding: 1em;
+    margin-bottom: 1em;
 }
-.blog button {
+.blogEntry2{
+    grid-area: entry2;
+    color: white;
+    margin: 1%;
+    border-color: yellow;
+    border-style: solid;
+    width: 15em;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.blogEntry3{
+    grid-area: entry2;
+    color: white;
+    margin: 1%;
+    border-color: yellow;
+    border-style: solid;
+    width: 15em;
+    padding: 1em;
+}
+.Blog button {
     margin-left: 8em;
     margin-bottom: 1em;
 }
