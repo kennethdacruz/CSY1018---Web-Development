@@ -363,7 +363,6 @@ nav a {
     height: 94%;
     width: 85vw;
     border-color: yellow;
-    border-style: solid;
     padding: 2%;
     color: white;
 }
@@ -374,7 +373,6 @@ nav a {
     height: 94%;
     width: 85vw;
     border-color: yellow;
-    border-style: solid;
     padding: 2%;
     color: white;
 }
@@ -385,7 +383,6 @@ nav a {
     height: 83%;
     width: 85vw;
     border-color: yellow;
-    border-style: solid;
     padding: 2%;
     color: white;
 }
@@ -408,4 +405,22 @@ nav a {
 .siteReport img {
     height: -10em;
     width: 13em;
+}
+
+.siteReport .references {
+    text-align: center;
+    font-size: 0.6em;
+    border-color: yellow;
+    border-style: solid;
+    padding: solid;
+    width: 30em;
+    margin: 3em;
+}
+
+.siteReport .references ul {
+    list-style: none;
+}
+
+.references h1 {
+    font-size: 2.1em;
 }

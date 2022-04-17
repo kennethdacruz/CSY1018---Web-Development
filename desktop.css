@@ -374,11 +374,12 @@ nav li {
     justify-items: center;
     grid-gap: 0%;
     margin-bottom: 3%;
-    margin-top: 7%;
+    margin-top: 1%;
     border-color: yellow;
     border-style: solid;
-    width: 170vh;
+    width: 205vh;
     margin-left: 3%;
+    padding-bottom: 0.5em;
 }
 
 .validationGrid img {
@@ -389,13 +390,13 @@ nav li {
 }
 
 .siteReport img {
-    height: -8em;
+    height: 8em;
     width: 13em;
 }
 
 .validationText {
     width: max-content;
-    margin-left: 65vw;
+    margin-left: 23vw;
 }
 
 .progress {
@@ -440,4 +441,21 @@ nav li {
     border-style: solid;
     width: 20.5em;
     padding: 1em;
+}
+
+.siteReport .references {
+    text-align: center;
+    font-size: 0.6em;
+    border-color: yellow;
+    border-style: solid;
+    width: 30em;
+    margin-left: 45em;
+}
+
+.siteReport .references ul {
+    list-style: none;
+}
+
+.references h1 {
+    font-size: 2.1em;
 }
