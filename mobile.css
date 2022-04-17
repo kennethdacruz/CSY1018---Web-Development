@@ -415,6 +415,7 @@ nav a {
     padding: solid;
     width: 30em;
     margin: 3em;
+    margin-left: 0.1em;
 }
 
 .siteReport .references ul {
