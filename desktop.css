@@ -379,3 +379,44 @@ nav li {
     width: 205vh;
     margin-left: 3%;
 }
+
+.progress {
+    display: grid;
+    grid-template-rows: auto; 
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: "firstLog secondLog thirdLog ";
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 5em;
+    margin: 0.5em;
+}
+
+.progress .firstLog {
+    grid-area: firstLog;
+    color: white;
+    margin: 3%;
+    border-color: yellow;
+    border-style: solid;
+    width: 20.5em;
+    padding: 1em;
+}
+
+.progress .secondLog {
+    grid-area: secondLog;
+    color: white;
+    margin: 3%;
+    border-color: yellow;
+    border-style: solid;
+    width: 20.5em;
+    padding: 1em;
+}
+
+.progress .thirdLog {
+    grid-area: thirdLog;
+    color: white;
+    margin: 3%; 
+    border-color: yellow;
+    border-style: solid;
+    width: 20.5em;
+    padding: 1em;
+}

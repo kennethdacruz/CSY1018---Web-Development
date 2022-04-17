@@ -339,3 +339,47 @@ nav a {
     border-style: solid;
     width: 91.9vw;
 }
+
+.progress {
+    display: grid;
+    grid-template-rows: auto; 
+    grid-template-columns: 100%;
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 3%;
+    width: 91.9vw;
+
+}
+
+.progress .firstLog{
+    justify-items: center;
+    margin: 3em;
+    height: 94%;
+    width: 85vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
+
+.progress .secondLog{
+    justify-items: center;
+    margin: 3em;
+    height: 94%;
+    width: 85vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
+
+.progress .thirdLog{
+    justify-items: center;
+    margin: 3em;
+    height: 94%;
+    width: 85vw;
+    border-color: yellow;
+    border-style: solid;
+    padding: 2%;
+    color: white;
+}
