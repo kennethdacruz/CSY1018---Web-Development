@@ -86,7 +86,7 @@ nav ul ul li:hover {
     text-align: center;
     margin-top: 3.4em;
     margin-bottom: 6.4em;
-    height: 67.5vh;
+    height: 60.85vh;
 }
 
 footer {
@@ -170,7 +170,7 @@ nav a {
 .Modules {
     margin: 2.2%; 
     height: 24%;
-    width: 85%;
+    width: 96%;
     color: #353d52;
     background-color: yellow;
 }
@@ -181,7 +181,7 @@ nav a {
     margin: 1%;
     border-color: yellow;
     border-style: solid;
-    width: 18em;
+    width: 15.6em;
     padding: 1em;
     margin-bottom: 1em;
 }
@@ -192,7 +192,7 @@ nav a {
     margin: 1%;
     border-color: yellow;
     border-style: solid;
-    width: 18em;
+    width: 15.6em;
     padding: 1em;
     margin-bottom: 1em;
 }
@@ -203,7 +203,7 @@ nav a {
     margin: 1%;
     border-color: yellow;
     border-style: solid;
-    width: 18em;
+    width: 15.6em;
     padding: 1em;
 }
 .Blog .btn{
@@ -278,7 +278,7 @@ nav a {
     justify-items: center;
     margin: 3%;
     height: 94%;
-    width: 85vw;
+    width: 88vw;
     border-color: yellow;
     border-style: solid;
     padding: 2%;
@@ -288,8 +288,8 @@ nav a {
 .websiteProgress {
     justify-items: center;
     margin: 3%;
-    height: 96%;
-    width: 85vw;
+    height: 97.7%;
+    width: 88vw;
     border-color: yellow;
     border-style: solid;
     padding: 2%;
@@ -299,8 +299,8 @@ nav a {
 .finalWebsite {
     justify-items: center;
     margin: 3%;
-    height: 97%;
-    width: 85vw;
+    height: 95.8%;
+    width: 88vw;
     border-color: yellow;
     border-style: solid;
     padding: 2%;
@@ -382,4 +382,24 @@ nav a {
     border-style: solid;
     padding: 2%;
     color: white;
+}
+
+.websiteStart img {
+    height: 15em;
+    width: 17em;
+}
+
+.websiteProgress img {
+    height: 7.6em;
+    width: 16em;
+}
+
+.finalWebsite img {
+    height: 7.8em;
+    width: 16em;
+}
+
+.siteReport img {
+    height: 8.4em;
+    width: 16em;
 }

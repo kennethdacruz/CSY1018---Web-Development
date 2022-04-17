@@ -57,13 +57,7 @@ header {
     opacity: 30%;
 }
 
- body{
-
-/*     background: linear-gradient(90deg, rgba(36,42,56,1) 0%, rgb(16, 27, 51) 35%, rgb(62, 71, 92) 100%);
-	background-size: 400% 400%;
-	animation: gradient 15s infinite linear;
-    animation-delay: 5s; */
-
+ body {
     animation: backG 8s infinite ease;
 }
 
@@ -84,7 +78,7 @@ header {
 
 footer {
     background-color: #2e3449;
-    height: 5em;
+    height: 5em; 
 
     display: grid;
     grid-template-columns: repeat(4, auto);
