@@ -32,7 +32,7 @@ body {
     "mainTop"
     "mainBottom";
     padding: 3em 15%;
-    height: 64vh;
+    height: 63.1vh;
 }
 
 .home .mainTop {
@@ -265,7 +265,7 @@ nav ul ul li:hover {
 .websiteStart {
     justify-items: center;
     margin: 3%;
-    height: 85%;
+    height: 80%;
     width: 90vw;
     border-color: yellow;
     border-style: solid;
@@ -377,18 +377,25 @@ nav li {
     margin-top: 7%;
     border-color: yellow;
     border-style: solid;
-    width: 205vh;
+    width: 170vh;
     margin-left: 3%;
 }
 
 .validationGrid img {
-    width: 16em;
-    height: 7.7em;
+    object-fit: contain;
+    width: 100%;
+    max-height: 100%;
+
+}
+
+.siteReport img {
+    height: -8em;
+    width: 13em;
 }
 
 .validationText {
     width: max-content;
-    margin-left: 87%;
+    margin-left: 65vw;
 }
 
 .progress {
@@ -399,7 +406,10 @@ nav li {
     text-align: center;
     justify-items: center;
     margin-bottom: 5em;
-    margin: 0.5em;
+    margin: 0.1em;
+    margin-left: 3vw;
+    margin-top: 0.1em;
+
 }
 
 .progress .firstLog {
