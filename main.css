@@ -109,10 +109,6 @@ footer a {
     color: white;
 }  
 
-/* .Blog button {
-    background-color: #242a38;
-    color: white;
-} */
 .Blog .btn {
     background-color: #242a38;
     color: white; 
@@ -121,5 +117,41 @@ footer a {
     font-size: 1.1em;
     border-radius:10px; 
     padding:15px;
+    margin-top: 1em;
     display: inline-block;
 }
+
+.siteReport .btn {
+    background-color: #242a38;
+    color: white; 
+    border-style:outset;
+    border-color:   rgb(138, 137, 137);
+    font-size: 1.1em;
+    border-radius:10px; 
+    padding:15px;
+    display: block;
+    margin-left: 27em;
+    margin-top: 1em;
+    width: 110px;
+    justify-items: center;
+    align-items: center;
+}
+
+.validationGrid {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+figure {
+    margin: 1em;
+    position: relative;
+}
+
+figcaption {
+    background-color: blue;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
+

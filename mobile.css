@@ -78,11 +78,15 @@ nav ul ul li:hover {
     background-position: center;
 }
 
+.home .mainTop {
+    margin-top: 3em;
+}
+
 .home {
     text-align: center;
-    margin-top: 2em;
-    margin-bottom: 5em;
-    height: 67.9vh;
+    margin-top: 3.4em;
+    margin-bottom: 6.4em;
+    height: 67.5vh;
 }
 
 footer {
@@ -163,9 +167,13 @@ nav a {
     padding: 0.6em;
 }
 
-/* .Blog section {
-    margin-bottom: 2em;
-} */
+.Modules {
+    margin: 2.2%; 
+    height: 24%;
+    width: 85%;
+    color: #353d52;
+    background-color: yellow;
+}
 
 .blogEntry1{
     grid-area: entry1;
@@ -173,35 +181,35 @@ nav a {
     margin: 1%;
     border-color: yellow;
     border-style: solid;
-    width: 15em;
+    width: 18em;
     padding: 1em;
     margin-bottom: 1em;
 }
+
 .blogEntry2{
     grid-area: entry2;
     color: white;
     margin: 1%;
     border-color: yellow;
     border-style: solid;
-    width: 15em;
+    width: 18em;
     padding: 1em;
     margin-bottom: 1em;
 }
+
 .blogEntry3{
-    grid-area: entry2;
+    grid-area: entry3;
     color: white;
     margin: 1%;
     border-color: yellow;
     border-style: solid;
-    width: 15em;
+    width: 18em;
     padding: 1em;
 }
-.Blog button {
-    margin-left: 8em;
+.Blog .btn{
+    margin-left: 4.4em;
     margin-bottom: 1em;
 }
-
-
 .Report {
     justify-items: center;
     margin: 3%;
@@ -216,7 +224,7 @@ nav a {
 .WebDevelopment {
     justify-items: center;
     margin: 3%;
-    height: 97%;
+    height: 95.8%;
     width: 85vw;
     border-color: yellow;
     border-style: solid;
@@ -234,6 +242,15 @@ nav a {
     padding: 2%;
     color: white;
 }
+
+.SoftwareEngineering b {
+    font-size: 1.100em;
+}
+
+.SoftwareEngineering ul li {
+        list-style: none;
+        font-size: 1.090em;
+ }
 
 .Databases {
     justify-items: center;
@@ -271,7 +288,7 @@ nav a {
 .websiteProgress {
     justify-items: center;
     margin: 3%;
-    height: 97%;
+    height: 96%;
     width: 85vw;
     border-color: yellow;
     border-style: solid;
@@ -293,7 +310,6 @@ nav a {
 .report {
     justify-items: center;
     margin: 3%;
-    height: 20%;
     width: 85vw;
     border-color: yellow;
     border-style: solid;
@@ -302,5 +318,24 @@ nav a {
 }
 
 .portfolio img {
-    padding: 0.4em;
+    padding: 0.08em;
+}
+
+.Modules img {
+    width: 14em;
+    height: 10em;
+    padding: 0.5em;
+}
+
+.validationGrid {
+    display: grid;
+    grid-template-rows: auto; 
+    grid-template-columns: 100%;
+    text-align: center;
+    justify-items: center;
+    grid-gap: 0%;
+    margin-bottom: 3%;
+    border-color: yellow;
+    border-style: solid;
+    width: 91.9vw;
 }

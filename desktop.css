@@ -131,18 +131,24 @@ nav ul ul li:hover {
     grid-template-columns: 50% 50%;
     text-align: center;
     justify-items: center;
-    grid-gap: 5%;
+    grid-gap: 1.1%;
     margin-bottom: 3%;
 }
 /* Assigning colour to the module sections with specified margin, height and width. The background colur and padding for each section is assigned */
-.Modules {
-    margin: 3%; 
+ .Modules {
+    margin: 2.2%; 
     height: 90%;
     width: 55%;
-    background-color: yellow;
-    padding: 0.1px;
     color: #353d52;
+    background-color: yellow;
 }
+
+.Modules img {
+    width: 14em;
+    height: 10em;
+    padding: 0.5em;
+}
+
 /* Creating a grid for the entries of my blog */
 .Blog {
     display: grid;
@@ -156,6 +162,7 @@ nav ul ul li:hover {
     height: 66.4vh;
     margin-bottom: 5em;
 }
+
 .blogEntry1{
     grid-area: entry1;
     color: white;
@@ -186,16 +193,6 @@ nav ul ul li:hover {
     padding: 1em;
 }
 
-.Blog button {
-    font-size: 0.8em;
-    border-radius:10px; 
-    padding:15px;
-    min-height: 0.8px; 
-    min-width: 150px;
-    top:50%;
-}
-
-/* Assigning a height and width for entires with a specified margin */
 .Blog p {
     margin: 0.5em;
 }
@@ -231,7 +228,17 @@ nav ul ul li:hover {
     border-style: solid;
     padding: 2%;
     color: white;
+    font-size: 1.040em;
 }
+
+.SoftwareEngineering b {
+    font-size: 1.100em;
+}
+
+.SoftwareEngineering ul li {
+        list-style: none;
+        font-size: 1.090em;
+ }
 
 .Databases {
     justify-items: center;
@@ -291,7 +298,6 @@ nav ul ul li:hover {
 .report {
     justify-items: center;
     margin: 3%;
-    height: 15%;
     width: 90vw;
     border-color: yellow;
     border-style: solid;
@@ -358,4 +364,18 @@ nav li {
     border-style: solid;
     padding: 2%;
     color: white;
+}
+
+.validationGrid {
+    display: grid;
+    grid-template-rows: auto; 
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    justify-items: center;
+    grid-gap: 0%;
+    margin-bottom: 3%;
+    border-color: yellow;
+    border-style: solid;
+    width: 205vh;
+    margin-left: 3%;
 }
