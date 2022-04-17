@@ -376,7 +376,7 @@ nav a {
 .progress .thirdLog{
     justify-items: center;
     margin: 3em;
-    height: 94%;
+    height: 83%;
     width: 85vw;
     border-color: yellow;
     border-style: solid;
@@ -400,6 +400,6 @@ nav a {
 }
 
 .siteReport img {
-    height: 8.4em;
-    width: 16em;
+    height: 8em;
+    width: 13em;
 }

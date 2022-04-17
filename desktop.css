@@ -374,10 +374,21 @@ nav li {
     justify-items: center;
     grid-gap: 0%;
     margin-bottom: 3%;
+    margin-top: 7%;
     border-color: yellow;
     border-style: solid;
     width: 205vh;
     margin-left: 3%;
+}
+
+.validationGrid img {
+    width: 16em;
+    height: 7.7em;
+}
+
+.validationText {
+    width: max-content;
+    margin-left: 87%;
 }
 
 .progress {
